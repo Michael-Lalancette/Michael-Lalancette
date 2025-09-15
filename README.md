@@ -18,19 +18,19 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 ---
 
 ## 🛡️ Compétences clés
-- **Défensive (Blue Team)** : surveillance, détection d’intrusions, réponse aux incidents  
-- **Offensive (Red Team)** : reconnaissance, exploitation de vulnérabilités, CTFs  
-- **Infrastructure & Cloud** : sécurisation réseau, administration d'un pare-feu (OPNsense), AWS, virtualisation  
-- **Analyse & Investigation** : analyse de PCAP dans Wireshark, MITRE ATT&CK  
-- **Automatisation** : scripting Python, Bash, PowerShell  
+- **Blue Team** : surveillance et détection d’intrusions, réponse aux incidents, threat hunting, configuration SIEM (Splunk, Wazuh)  
+- **Red Team** : reconnaissance, exploitation de vulnérabilités, participation à des CTFs (HTB), tests d’intrusion en lab  
+- **Infrastructure & Cloud** : sécurisation réseau, administration de pare-feu (OPNsense), sécurité cloud (AWS), virtualisation (VMware, Docker), gestion d’identités (Active Directory)  
+- **Analyse & Investigation** : analyse de trafic réseau (PCAP, Wireshark), extraction d’IoCs, cartographie MITRE ATT&CK  
+- **Automatisation & Scripting** : Python (analyse de logs, automatisation de tâches), Bash, PowerShell  
 
 ---
 
 ## 🧰 Outils & Technologies
-**Défense / Blue Team** : Splunk, Wazuh, Wireshark, MITRE ATT&CK  
-**Offensif / Red Team** : Kali Linux, Nmap, Metasploit, Burp Suite, CTFs (HTB)  
-**Infrastructure & Cloud** : AWS, VPC, Docker, VMware, Active Directory, OPNsense  
-**Langages & Scripting** : Python, Bash, PowerShell  
+- **Blue Team** : Splunk (SIEM), Wazuh (EDR), Wireshark, MITRE ATT&CK  
+- **Red Team** : Kali Linux, Nmap, Metasploit, Burp Suite, CTFs (HTB)  
+- **Infrastructure & Cloud** : AWS (VPC, IAM, Lambda), Docker, VMware, Active Directory, OPNsense  
+- **Langages & Scripting** : Python, Bash, PowerShell  
 
 ---
 
