@@ -18,10 +18,11 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 ---
 
 ## 🛡️ Compétences clés
-- **Blue Team** : surveillance et détection d’intrusions, réponse aux incidents, threat hunting, configuration SIEM (Splunk, Wazuh)  
-- **Red Team** : reconnaissance, exploitation de vulnérabilités, participation à des CTFs (HTB), tests d’intrusion en lab  
-- **Infrastructure & Cloud** : sécurisation réseau, administration de pare-feu (OPNsense), sécurité cloud (AWS), virtualisation (VMware, Docker), gestion d’identités (Active Directory)  
-- **Analyse & Investigation** : analyse de trafic réseau (PCAP, Wireshark), extraction d’IoCs, cartographie MITRE ATT&CK  
+- **Blue Team** : surveillance et détection d’intrusions, réponse aux incidents, threat hunting, configuration SIEM (Splunk Enterprise)
+- **SIEM & Journalisation** : Configuration avancée Splunk (Universal Forwarder, inputs/outputs, création d’indexes, requêtes SPL, dashboards, alertes automatisées)  
+- **Red Team** : reconnaissance, exploitation de vulnérabilités, simulation d'attaques, CTFs (HTB)    
+- **Infrastructure & Cloud** : segmentation/sécurisation réseau, administration de pare-feu (OPNsense), sécurité cloud (AWS), mise en place d'environnements virtualisés (VMware, Docker), gestion d’identités (Active Directory), déploiement Honeypots  
+- **Analyse & Investigation** : analyse de trafic réseau (PCAP, Wireshark), analyse de logs (Windows Event logs et IIS logs), corrélation d'événements, extraction d’IoCs, cartographie MITRE ATT&CK  
 - **Automatisation & Scripting** : Python (analyse de logs, automatisation de tâches), Bash, PowerShell  
 
 ---
@@ -35,23 +36,26 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 ---
 
 ## 📂 Projets
-- **Home Lab SIEM & EDR**  
-  Mise en place d’un environnement Splunk + Wazuh pour simuler des incidents.  
-  - Création de règles de détection et corrélation d’événements  
-  - Triage et analyse d’alertes SOC  
-  - Investigation et remédiation simulées  
+**SOC Lab avec Splunk**  
+👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/SOC-Splunk-Lab)  
+  - Conception et déploiement d’un SOC miniature dans un environnement virtuel.  
+    - Mise en place d’un SIEM (Splunk Enterprise) et d’un honeypot IIS avec leurres  
+    - Collecte et indexation des logs via Universal Forwarder  
+    - Création de règles SPL pour la détection en temps réel  
+    - Déclenchement d’alertes automatiques (Triggered Alerts, e-mail via Mailtrap, CSV lookup)  
+    - Développement d’un dashboard interactif Splunk pour visualiser les accès au honeypot  
+    - Simulation adversaire (reconnaissance → accès → tentative d’exfiltration)  
+    - Validation du pipeline SOC complet (collecte → détection → alerte → triage → visualisation)  
 
-- **Firewall OPNsense**  
-  Déploiement et configuration d’un pare-feu réseau.  
-  - Segmentation réseau  
-  - Règles de filtrage et VPN  
-  - Intégration IDS/IPS  
 
-- **[Analyse de PCAPs avec Wireshark](https://github.com/Michael-Lalancette/PCAP-Investigation/tree/main)**  
-  Investigation réseau pour la détection d’anomalies et la documentation d’incidents.  
-  - Identification de trafic suspect et d’activités malveillantes 
-  - Corrélation et extraction d’IOCs  
-  - Production de rapports techniques d’investigation   
+
+**Analyse de PCAPs avec Wireshark**  
+👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/PCAP-Investigation/tree/main)  
+  - Investigation réseau pour la détection d’anomalies et la documentation d’incidents.   
+    - Identification de trafic suspect et d’activités malveillantes  
+    - Corrélation et extraction d’IOCs  
+    - Production de rapports techniques d’investigation  
+
 
 ---
 
