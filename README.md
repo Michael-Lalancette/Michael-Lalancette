@@ -1,4 +1,4 @@
-# 👨‍💻 Michaël Lalancette | Analyste Junior en Cybersécurité
+# 👨‍💻 Michaël Lalancette | Analyste en Cybersécurité
 
     ⚠️ Ce portfolio est actuellement en construction. Certains projets/sections seront ajoutés/complétés prochainement.
 
