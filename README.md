@@ -60,8 +60,8 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 ---
 
 ## 📜 Formations & Certifications
+- **TryHackMe SOC niveau 1** *(2025)*
 - **AEC Cybersécurité : Protection et Défense** – Collège Montmorency *(2023–2024)*  
-- **TryHackMe SOC niveau 1** *(en cours)*
 
 
 ---
