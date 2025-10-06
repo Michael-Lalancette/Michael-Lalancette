@@ -68,7 +68,7 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 
 ## 📬 Contact
 - [Me contacter par email](mailto:michael.lalancette@proton.me)
-- [LinkedIn](https://www.linkedin.com/in/michael-lalancette-scope/)
+- [LinkedIn](https://www.linkedin.com/in/michael-lalancette/)
 
 ---
 
