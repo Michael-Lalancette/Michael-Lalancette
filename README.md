@@ -9,34 +9,42 @@ Vous trouverez ici mes projets pratiques en cybersécurité, couvrant la **déte
 ---
 
 ## 🎯 Objectif professionnel
-Mon objectif est de contribuer à renforcer la sécurité des organisations en apportant une approche polyvalente :  
-- Détection et réponse aux incidents (Blue Team / SOC)  
-- Exploitation et analyse de vulnérabilités (Red Team)  
-- Sécurité cloud & infrastructure  
-- Automatisation et scripting 
+Contribuer à la sécurité opérationnelle d’une organisation en alliant rigueur analytique, curiosité technique et compréhension des environnements complexes.  
+Je m’intéresse particulièrement à la surveillance SOC, à la détection comportementale et à l’analyse de trafic réseau dans un cadre défensif (Blue Team).  
 
 ---
 
 ## 🛡️ Compétences clés
-- **Blue Team** : surveillance et détection d’intrusions, réponse aux incidents, threat hunting, configuration SIEM (Splunk Enterprise)
-- **SIEM & Journalisation** : Configuration avancée Splunk (Universal Forwarder, inputs/outputs, création d’indexes, requêtes SPL, dashboards, alertes automatisées)  
-- **Red Team** : reconnaissance, exploitation de vulnérabilités, simulation d'attaques, CTFs (HTB)    
-- **Infrastructure & Cloud** : segmentation/sécurisation réseau, administration de pare-feu (OPNsense), sécurité cloud (AWS), mise en place d'environnements virtualisés (VMware, Docker), gestion d’identités (Active Directory), déploiement Honeypots  
-- **Analyse & Investigation** : analyse de trafic réseau (PCAP, Wireshark), analyse de logs (Windows Event logs et IIS logs), corrélation d'événements, extraction d’IoCs, cartographie MITRE ATT&CK  
-- **Automatisation & Scripting** : Python (analyse de logs, automatisation de tâches), Bash, PowerShell  
+- **Surveillance & Détection** – Exploitation et configuration de solutions **SIEM** (*Splunk*) pour collecter, analyser et corréler les logs.  
+- **Analyse & Investigation** – Inspection de trafic réseau (*Wireshark*), extraction d’indicateurs de compromission (IoC), analyse de journaux Windows et IIS.  
+- **Sécurité Opérationnelle** – Application de cadres tels que **MITRE ATT&CK** pour la cartographie des techniques d’attaque (TTPs) et la documentation post-incident.  
+- **Vulnérabilités & Attaques** – Participation à des **CTFs** (*HTB/THM*), exploitation de failles dans des environnements isolés, identification de vulnérabilités.  
+- **Infrastructure Sécurisée** – Administration d’environnements **Linux / Windows**, configuration de **pare-feux (pfSense)**, virtualisation (*VMware, Docker*), sécurité cloud (*AWS*).  
+- **Scripting & Automatisation** – Développement de scripts **Python**, **Bash** et **PowerShell** pour l’analyse et la détection d’événements.  
 
 ---
 
-## 🧰 Outils & Technologies
-- **Blue Team** : Splunk (SIEM), Wazuh (EDR), Wireshark, MITRE ATT&CK  
-- **Red Team** : Kali Linux, Nmap, Metasploit, Burp Suite, CTFs (HTB)  
-- **Infrastructure & Cloud** : AWS (VPC, IAM, Lambda), Docker, VMware, Active Directory, OPNsense  
-- **Langages & Scripting** : Python, Bash, PowerShell  
+## 🧰 Outils & Technologies  
+- **Blue Team :** Splunk (SIEM), Wazuh (EDR), Wireshark, MITRE ATT&CK  
+- **Red Team :** Kali Linux, Metasploit, Burp Suite, Nmap, Hydra  
+- **Infrastructure :** Linux, Windows, Active Directory, VMware, Docker, pfSense, AWS  
+- **Langages & Scripting :** Python, Bash, PowerShell   
+ 
 
 ---
 
 ## 📂 Projets
-**SOC Lab avec Splunk**  
+**Analyse d'un E-mail de Phishing** - _Octobre 2025_
+👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/Analyse-Email-Phishing)  
+  - Analyse complète d’un courriel malveillant pour identifier les tactiques, techniques et procédures (TTPs) utilisées par l’attaquant, ainsi que les indicateurs de compromission (IoC) associés. 
+    - Extraction et décodage du lien malveillant
+    - Analyse de réputation du domaine
+    - Corrélation tactiques avec cadre MITRE ATT&CK
+    - Production d’un rapport d’analyse et de recommandations préventives.
+
+
+
+**SOC Lab avec Splunk** - _Septembre 2025_ 
 👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/SOC-Splunk-Lab)  
   - Conception et déploiement d’un SOC miniature dans un environnement virtuel.  
     - Mise en place d’un SIEM (Splunk Enterprise) et d’un honeypot IIS avec leurres  
@@ -49,7 +57,7 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
 
 
 
-**Analyse de PCAPs avec Wireshark**  
+**Analyse de PCAPs avec Wireshark** - _Septembre 2025_
 👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/PCAP-Investigation/tree/main)  
   - Investigation réseau pour la détection d’anomalies et la documentation d’incidents.   
     - Identification de trafic suspect et d’activités malveillantes  
@@ -57,10 +65,12 @@ Mon objectif est de contribuer à renforcer la sécurité des organisations en a
     - Production de rapports techniques d’investigation  
 
 
+
+
 ---
 
 ## 📜 Formations & Certifications
-- **TryHackMe SOC niveau 1** *(2025)*
+- **TryHackMe SOC niveau 1** *(Octrobre 2025)*
 - **AEC Cybersécurité : Protection et Défense** – Collège Montmorency *(2023–2024)*  
 
 
