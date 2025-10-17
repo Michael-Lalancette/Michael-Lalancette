@@ -34,13 +34,15 @@ Je m’intéresse particulièrement à la surveillance SOC, à la détection com
 ---
 
 ## 📂 Projets
-**Analyse d'un E-mail de Phishing** - _Octobre 2025_
+**Analyse d’e-mails de Phishing** - _Octobre 2025_
 👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/SOC-Phishing)  
-  - Analyse complète d’un courriel malveillant pour identifier les tactiques, techniques et procédures (TTPs) utilisées par l’attaquant, ainsi que les indicateurs de compromission (IoC) associés. 
-    - Extraction et décodage du lien malveillant
-    - Analyse de réputation du domaine
-    - Corrélation tactiques avec cadre MITRE ATT&CK
-    - Production d’un rapport d’analyse et de recommandations préventives.
+  - Analyse forensique d’un e-mail de phishing :  
+    - Analyse des en-têtes (sender IP, SPF/DKIM/DMARC, Received hops)  
+    - Vérification de réputation des domaines  
+    - Extraction et décodage des liens malveillants  
+    - Traitement et hachage des pièces jointes (SHA256 / MD5)  
+    - Identification des tactiques de l’attaquant via MITRE ATT&CK  
+    - Production d’un rapport d’IoCs et recommandations préventives
 
 
 
