@@ -35,7 +35,7 @@ Je m’intéresse particulièrement à la surveillance SOC, à la détection com
 
 ## 📂 Projets
 **Analyse d'un E-mail de Phishing** - _Octobre 2025_
-👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/SOC-Phishing-Lab)  
+👉 [Documentation complète du projet](https://github.com/Michael-Lalancette/SOC-Phishing)  
   - Analyse complète d’un courriel malveillant pour identifier les tactiques, techniques et procédures (TTPs) utilisées par l’attaquant, ainsi que les indicateurs de compromission (IoC) associés. 
     - Extraction et décodage du lien malveillant
     - Analyse de réputation du domaine
